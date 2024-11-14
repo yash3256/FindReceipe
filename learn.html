@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo:wght@700&family=Bitter&family=Merriweather:wght@300&family=Nanum+Myeongjo&family=Playfair+Display:wght@400;800&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo:wght@700&family=Bitter&family=Playfair+Display:wght@800&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="https://developer.edamam.com/attribution/badge.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <nav>
+    <li class="find-container" id="logo">
+        <p><a href=index.html>find my recipe</a></p>
+    </li>
+    <li class="find-container" id="recipe-search">
+        <form id="search-bar">
+            <!-- <label>Enter Keyword</label> -->
+            <input type="text" placeholder="search recipes by name or keyword" id="user-input"/>
+            <button id="search-btn"><img src="search-icon.png"></button>
+        </form>
+    </li>
+    <li class="find-container">
+        <a href="restro.html">restaurants near you</a>
+    </li>
+    <li class="find-container">
+        <a href="contact.html">contact me</a>
+    </li>
+    </nav>
+
+    
+
+    <div class="info" id="places-body">
+        <h4>About</h4>
+        <br>
+        <h5>
+        This digital haven seamlessly melds two distinct APIs, 
+        Edamam and OpenStreetMap (OSM), ushering in a novel dimension to the way we engage with food.
+        <br><br>
+        In this virtual culinary tapestry, a simple search transforms into a culinary adventure.
+         With 'Find My Recipe,' a world of gastronomic possibilities unfolds before you. 
+         Effortlessly search for your desired recipe or dish, and watch as a delightful array of options emerges. 
+         Each dish comes alive through vivid imagery, meticulously curated ingredient lists, 
+         and even comprehensive nutritional insights. 
+         Whether you're a seasoned chef or a culinary enthusiast, this platform
+         provides a canvas for your gastronomic creativity.
+         <br><br>
+
+        Beyond the realm of home-cooked marvels, 'Find My Recipe' offers a portal to the dining landscape.
+        A mere search leads you to nearby restaurants, cafes, and fast-food havens, meticulously pinpointed 
+        through the integration of OpenStreetMap data. Navigate through the culinary offerings of your vicinity,
+        armed with vital details such as establishment names and addresses.
+        <br>
+        <br>
+        In this fusion of technology and taste, 'Find My Recipe' emerges as a culinary companion. 
+        It harnesses the potency of modern APIs to elevate your dining escapades. Whether you seek
+        the artistry of your kitchen or the comfort of dining out, this platform stands as your unwavering guide. 
+        'Find My Recipe' invites you to delve into a world of flavors, savor every moment, and embrace the joy 
+        of culinary exploration.
+</h5>    
+</div>
+
+    <div id="recipes-display"></div>
+
+    <!-- <div id="recipe-details"></div> -->
+
+
+    <footer>
+        <br>
+        <h5>contact me!</h5>
+        <div class="footer">
+        <div class="contacts">
+            <li><p><a href="https://www.linkedin.com/in/suryawanshi-yash/" class="fa fa-linkedin"></a></p></li>
+            <li><p><a href="https://www.instagram.com/yash_suryawanshi4/" class="fa fa-instagram"></a></p></li>
+            <li><p><a href="https://github.com/yash3256" class="fa fa-github"></a></p></li>
+        </div>
+        <div class="contact-info">   
+            <p>email : yashsuryawanshi277@gmail.com</p>
+            <p>phone : 0000000000</p>
+            <p>location : Pune, India</p>
+            
+        </div>
+        
+        </div>
+        <div id="edamam-badge" data-color="white"></div>
+        <p id="my-name">Developed by Yash</p>
+    </footer>
+
+    
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
